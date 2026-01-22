@@ -138,7 +138,7 @@ AutoRagOfDocs/
 ### 2. Clone and Install
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/koffandaff/RAGForge.git
 cd AutoRagOfDocs/vectordb_chat
 pip install -r requirements.txt
 ```
