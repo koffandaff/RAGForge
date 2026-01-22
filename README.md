@@ -4,6 +4,7 @@ A professional, privacy-focused Retrieval-Augmented Generation (RAG) application
 
 ## Table of Contents
 - [Overview](#overview)
+- [Screenshots](#screenshots)
 - [System Architecture](#system-architecture)
 - [Project Structure](#project-structure)
 - [Technology Stack](#technology-stack)
@@ -33,6 +34,26 @@ graph LR
 - **Title-Based Isolation**: Create multiple isolated knowledge bases ("titles") and switch between them seamlessly.
 - **Streaming UI**: Token-by-token response streaming for a modern chat experience.
 - **Privacy First**: All embeddings, indices, and LLM inferences stay on your local machine.
+
+
+## Screenshots
+
+### Upload:
+
+<img width="1825" height="975" alt="image" src="https://github.com/user-attachments/assets/021625bd-2908-4b03-a21c-fda9fbb46553" />
+
+---
+
+### Chat
+<img width="1905" height="972" alt="image" src="https://github.com/user-attachments/assets/154973cc-0109-4f86-9663-10f356ba0252" />
+
+---
+
+### Changing Documents
+
+<img width="546" height="686" alt="image" src="https://github.com/user-attachments/assets/abcca4be-cbc4-4422-a9d9-f1d895a2c2f4" />
+
+---
 
 ## System Architecture: File Interactions
 ```mermaid
