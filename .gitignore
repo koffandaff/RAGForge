@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# Streamlit
+.streamlit/
+
+# Local Storage (RAG Data)
+# We ignore these because they contain local indices and text chunks
+vectordb_chat/storage/
+LearningPhase/test_storage/
+LearningPhase/my_test_notes.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific
+*.index
+*_chunks.json
+titles.json
+titles_registry.json
